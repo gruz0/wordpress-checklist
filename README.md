@@ -26,11 +26,11 @@
 
 ## Plugins
 
-### Akismet
+### [Akismet](https://wordpress.org/plugins/akismet/)
 
 - [ ] Get free license
 
-### WordPress SEO by Yoast
+### [WordPress SEO by Yoast](https://wordpress.org/plugins/wordpress-seo/)
 
 - [ ] Generate XML sitemap
   - [ ] Remove tags from sitemap
@@ -43,17 +43,17 @@
 - [ ] Test Twitter sharing
 - [ ] Test VK sharing
 
-### Broken Link Checker
+### [Broken Link Checker](https://wordpress.org/plugins/broken-link-checker/)
 
-### WP Super Cache
+### [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/)
 
-### Contact Form 7
+### [Contact Form 7](https://wordpress.org/plugins/contact-form-7/)
 
 - [ ] Check all forms are working correctly
 
-### Mistape
+### [Mistape](https://wordpress.org/plugins/mistape/)
 
-### BackWPup
+### [BackWPup](https://wordpress.org/plugins/backwpup/)
 
 - [ ] Create a backup
 
