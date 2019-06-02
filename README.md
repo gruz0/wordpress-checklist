@@ -7,11 +7,18 @@
 * [https://github.com/janikvonrotz/wordpress-checklist](https://github.com/janikvonrotz/wordpress-checklist)
 * [https://github.com/douglasanro/wordpress-seo-checklist](https://github.com/douglasanro/wordpress-seo-checklist)
 * [https://www.wpbeginner.com/beginners-guide/checklist-11-things-to-do-before-launching-a-wordpress-site/](https://www.wpbeginner.com/beginners-guide/checklist-11-things-to-do-before-launching-a-wordpress-site/)
+* [https://capsicummediaworks.com/killer-wordpress-checklist/](https://capsicummediaworks.com/killer-wordpress-checklist/)
+* [https://premium.wpmudev.org/blog/ultimate-wordpress-security-checklist/](https://premium.wpmudev.org/blog/ultimate-wordpress-security-checklist/)
+* [https://makeawebsitehub.com/wordpress-website-checklist/](https://makeawebsitehub.com/wordpress-website-checklist/)
+* [https://wpengine.com/es/wp-content/uploads/2016/03/WP-EBK-PreLaunchCheck-Torque-v05-PUB.pdf](https://wpengine.com/es/wp-content/uploads/2016/03/WP-EBK-PreLaunchCheck-Torque-v05-PUB.pdf)
 
 ## Backend
 
+- [ ] Use latest WordPress version
 - [ ] Change `admin` username
 - [ ] Set correct admin's email
+- [ ] Enable two-factor authentication
+- [ ] Limit login attempts
 - [ ] Delete unused plugins (Hello Dolly, etc.)
 - [ ] Delete unused themes
 - [ ] Disable pingbacks and trackbacks
@@ -19,10 +26,27 @@
 - [ ] Delete empty pages without content
 - [ ] Update admin's last name and first name
 - [ ] Add favicon
-- [ ] Site indexation enabled?
+- [ ] Enable site to be crawled (Settings -> Reading)
 - [ ] Configure the permalinks settings
+- [ ] Use SEO friendly urls
 - [ ] Disable `WP_DEBUG`
 - [ ] Place `define( 'DISALLOW_FILE_EDIT', true )` in the `wp-config.php` file
+- [ ] Delete `wp-config-sample.php` file
+- [ ] Delete `readme.txt` file
+- [ ] Delete `xmlrpc.php` file (https://www.iplocation.net/defend-wordpress-from-ddos)
+- [ ] Check 404 page HTTP status
+- [ ] Test search page (https://domain.tld/?s=query)
+- [ ] Check loading speed
+- [ ] Check `robots.txt` file
+- [ ] Prevent directory access
+- [ ] Delete install & upgrade files (`/wp-admin/install.php`, `/wp-admin/upgrade.php`)
+- [ ] Ensure file permissions are correct
+- [ ] Hide login error messages
+- [ ] Check broken links
+- [ ] Add "Privacy Policy" and "Terms and Conditions" pages
+- [ ] Ensure you've set WordPress secret authentication keys
+- [ ] Check RSS feeds
+- [ ] Implement cookie warning
 
 ## Plugins
 
@@ -56,6 +80,8 @@
 ### [BackWPup](https://wordpress.org/plugins/backwpup/)
 
 - [ ] Create a backup
+
+### [Wordfence Security – Firewall & Malware Scan](https://wordpress.org/plugins/wordfence/)
 
 ## Server
 
