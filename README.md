@@ -86,7 +86,7 @@
 ## Server
 
 - [ ] Install Let's Encrypt certificate
-- [ ] [Check SSL certificate health](https://www.ssllabs.com/ssltest/)
+- [ ] [Check SSL certificate health](https://www.ssllabs.com/ssltest/) daily
 - [ ] Test redirect from HTTP to HTTPS
 - [ ] Test redirect from www to non-www domain
 - [ ] Is external monitoring enabled?
