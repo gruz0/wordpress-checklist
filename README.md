@@ -83,6 +83,8 @@
 
 ### [Wordfence Security – Firewall & Malware Scan](https://wordpress.org/plugins/wordfence/)
 
+- [ ] Run a malware scan
+
 ## Server
 
 - [ ] Install Let's Encrypt certificate
